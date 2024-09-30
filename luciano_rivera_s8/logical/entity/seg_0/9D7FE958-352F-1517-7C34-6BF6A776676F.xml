@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D7FE958-352F-1517-7C34-6BF6A776676F" name="COSTO">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:33:56 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_costo" id="668EA756-C0CF-D03E-EDB9-B32A3BDEDFED">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:41:42 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricipcion_costo" id="531BE2F0-9197-5FA5-5548-2CDFA86D7F7B">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:42:10 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="1C016EF8-08A1-336C-B340-016CA8A3E900">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:42:41 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="7B0BAE59-81BD-E162-536A-AB27AFC5CCA9">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:43:26 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="2FB07A8F-C628-9737-322A-54D3D1F97FF1">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:52:25 UTC</createdTime>
+<generatorID>5C22E6E1-FA88-1E6B-D557-B1BF0CA26BC5</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<referedAttribute>AA8F15B4-5C2F-395C-9CF4-115D9007716B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A11FA8F3-F356-1B06-62C8-C94B28135A2A" name="COSTO PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:42:06 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>668EA756-C0CF-D03E-EDB9-B32A3BDEDFED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

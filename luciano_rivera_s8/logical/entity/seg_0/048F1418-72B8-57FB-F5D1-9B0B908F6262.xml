@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="048F1418-72B8-57FB-F5D1-9B0B908F6262" name="PERSONAL">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:33:39 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_personal" id="747BB70E-14D8-B515-3FF4-8DC46242FC67">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:38:22 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_personal" id="73E78BC6-6F99-D922-80A5-C43EE85C19C4">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:38:55 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesion" id="8ACDB6F6-731F-9566-A768-7466A0B4F8D3">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:39:22 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="B6F54A13-39F8-CBE6-77A0-36B710350145">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:39:51 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="549A7FD6-AA64-7366-A411-04D459CE6F31">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:40:27 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="D80A254F-2A26-8C55-DA5F-8AC81C365A46">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:54:24 UTC</createdTime>
+<generatorID>054CE832-BC3E-31B0-E100-F653398DDCB7</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<referedAttribute>AA8F15B4-5C2F-395C-9CF4-115D9007716B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F80F0233-CC58-90FF-55CC-5D566D1D0B82" name="PERSONAL PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:38:39 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>747BB70E-14D8-B515-3FF4-8DC46242FC67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

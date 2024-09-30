@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2557DFAD-A7A3-E2E7-0893-72D38402AB8D" name="PERSONAL">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>048F1418-72B8-57FB-F5D1-9B0B908F6262</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_personal" id="59BEF23C-D676-79B9-07FC-2537F9932AFD">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>747BB70E-14D8-B515-3FF4-8DC46242FC67</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_personal" id="170C5FE0-10D7-B210-100C-513C929E4EE8">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>73E78BC6-6F99-D922-80A5-C43EE85C19C4</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion" id="658A90C6-6E62-C8CE-16C2-35CD1084BEC7">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>8ACDB6F6-731F-9566-A768-7466A0B4F8D3</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="C79DCB1A-C7B0-F32E-CBE3-45585E9B4CC0">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>B6F54A13-39F8-CBE6-77A0-36B710350145</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B1296BB2-E241-F7E4-3B45-D18BA1532EBD">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>549A7FD6-AA64-7366-A411-04D459CE6F31</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_DEPORTE_id_escuela" id="247C4EA6-3EFA-810A-54D8-77473E7E9C22">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>D80A254F-2A26-8C55-DA5F-8AC81C365A46</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6332E7AD-4B8A-369F-6342-577968AB1A6C" referredColumn="8D080A6A-EB74-6476-27E5-E7EBE27148C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="099B2A9D-4331-7FE6-FF99-41AF296A767E" name="PERSONAL_PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>F80F0233-CC58-90FF-55CC-5D566D1D0B82</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BEF23C-D676-79B9-07FC-2537F9932AFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74B7C128-F017-ED0C-621D-ADB4E39354B0" name="PERSONAL_ESCUELA_DEPORTE_FK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>054CE832-BC3E-31B0-E100-F653398DDCB7</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="247C4EA6-3EFA-810A-54D8-77473E7E9C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

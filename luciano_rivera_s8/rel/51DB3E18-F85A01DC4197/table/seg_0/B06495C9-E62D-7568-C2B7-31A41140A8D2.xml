@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B06495C9-E62D-7568-C2B7-31A41140A8D2" name="Relation_5">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONAL_id_personal" id="4C52FE88-E96A-BDE8-4DDF-CDA023788A9A">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="293AFFD2-6C65-4B43-FA60-6259EB42679B" referredColumn="59BEF23C-D676-79B9-07FC-2537F9932AFD"/>
+</associations>
+</Column>
+<Column name="COSTO_id_costo" id="75A16F07-8AC3-608D-1EEB-EB8702DFB1B3">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2177784-E6CF-016A-B595-9C80B8680601" referredColumn="86E77EC0-A542-C387-FA7B-BF99E32A1D22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBA9841B-4442-D91B-E999-0BA4009E999D" name="Relation_5_PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C52FE88-E96A-BDE8-4DDF-CDA023788A9A"/>
+<colUsage columnID="75A16F07-8AC3-608D-1EEB-EB8702DFB1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C925B4D-3DB5-4B6D-ECF3-ABA386DE47DA" name="Relation_5_PERSONAL_FK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>ECB32AE9-AEB7-607F-3922-65F0DAB7F056</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C52FE88-E96A-BDE8-4DDF-CDA023788A9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B15889E-F0A0-FAA0-C3CB-86784ABFDA63" name="Relation_5_COSTO_FK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>ECB32AE9-AEB7-607F-3922-65F0DAB7F056</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A16F07-8AC3-608D-1EEB-EB8702DFB1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C28BFD4F-9DC9-3868-4B8B-4AA15F73B954" name="COSTO">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>9D7FE958-352F-1517-7C34-6BF6A776676F</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_costo" id="86E77EC0-A542-C387-FA7B-BF99E32A1D22">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>668EA756-C0CF-D03E-EDB9-B32A3BDEDFED</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricipcion_costo" id="8D91F878-47A1-8476-659F-F50D3440C4BC">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>531BE2F0-9197-5FA5-5548-2CDFA86D7F7B</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="F2947889-8729-B965-01F9-9EA4C1B3D9E3">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>1C016EF8-08A1-336C-B340-016CA8A3E900</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="53684A6B-C818-8058-043B-CCFCC5D5BB25">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>7B0BAE59-81BD-E162-536A-AB27AFC5CCA9</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_DEPORTE_id_escuela" id="C070EA34-1770-2627-2267-B551615E19D7">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>2FB07A8F-C628-9737-322A-54D3D1F97FF1</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="010E34AF-7874-3F33-4CCF-1D3DF8BC4368" referredColumn="8D080A6A-EB74-6476-27E5-E7EBE27148C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4530AFCA-4F03-4454-C127-A1FB8851386C" name="COSTO_PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>A11FA8F3-F356-1B06-62C8-C94B28135A2A</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86E77EC0-A542-C387-FA7B-BF99E32A1D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="479100A6-4490-4A7E-BBC7-AC50F5F9CAF4" name="COSTO_ESCUELA_DEPORTE_FK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:59:19 UTC</createdTime>
+<generatorID>5C22E6E1-FA88-1E6B-D557-B1BF0CA26BC5</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C070EA34-1770-2627-2267-B551615E19D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

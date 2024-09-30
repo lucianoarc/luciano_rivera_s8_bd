@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED172A0B-77BF-42F2-9D3A-FA2DD16EF055" name="INSTALACION">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:34:13 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_instalacion" id="9D483B0F-C4E2-D8B1-BE1F-9FC0D69808E4">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:44:01 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_instalacion" id="00322882-E6BE-AB09-2242-8B0C3F827BD5">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:44:22 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="AAF1D655-E44F-B922-0344-9F7DACB8D37F">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:44:59 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion_instalacion" id="91D1CCA1-872A-254A-553C-ABD59F2EFEB2">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:45:30 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="BFD8E10A-7CB8-1A3C-BD22-93546D369F43">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:53:14 UTC</createdTime>
+<generatorID>5FD4918F-DA92-5988-0C0E-1E84386CDB6D</generatorID>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="true"/>
+</engineerTo>
+<referedAttribute>AA8F15B4-5C2F-395C-9CF4-115D9007716B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74F3C596-7EA2-308F-220E-B66FD62D8CA3" name="INSTALACION PK">
+<createdBy>lucia</createdBy>
+<createdTime>2024-09-30 04:44:16 UTC</createdTime>
+<ownerDesignName>luciano_rivera_s8</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="51DB3E18-4833-6944-5794-F85A01DC4197" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D483B0F-C4E2-D8B1-BE1F-9FC0D69808E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
